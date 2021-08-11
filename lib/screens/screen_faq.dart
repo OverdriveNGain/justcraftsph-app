@@ -7,16 +7,7 @@ class ScreenFaq extends StatelessWidget {
     return Scaffold(
       drawer: JcphDrawer(),
       appBar: AppBar(
-        title: Text("FAQs"),
-        actions: [
-          TextButton.icon(
-            label: Text('Cart'),
-            icon: Icon(Icons.shopping_cart_rounded),
-            onPressed: () {
-              Navigator.pushReplacementNamed(context, 'scart');
-            },
-          )
-        ],
+        title: Text("FAQs")
       ),
       body: Container(
         color: Theme.of(context).colorScheme.background,

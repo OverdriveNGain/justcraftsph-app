@@ -71,7 +71,7 @@ class _ScreenCustomBuyState extends State<ScreenCustomBuy> {
                             _smaterial.toMaterialTile(false, null),
                             SizedBox(
                               width: double.maxFinite,
-                              child: RaisedButton(
+                              child: ElevatedButton(
                                 onPressed: () async {
                               final smat = await showDialog(
                                 context: context,
@@ -312,9 +312,9 @@ class _ScreenCustomBuyState extends State<ScreenCustomBuy> {
 
       Widget selectFilesButton = SizedBox(
           width: double.maxFinite,
-          child: RaisedButton(
+          child: ElevatedButton(
             // todo: implement this color all over the app
-            color: Colors.brown[600], //Theme.of(context).buttonColor,
+            style: ElevatedButton.styleFrom(primary: Colors.brown[600]),
             child: Text(
               'Add files',
               style: TextStyle(

@@ -182,11 +182,11 @@ class ScreenPricing extends StatelessWidget {
               textAlign: TextAlign.center,
             )),
         SizedBox(height: 20.0),
-        RaisedButton(
+    ElevatedButton(
+      style: ElevatedButton.styleFrom(primary:Theme.of(context).colorScheme.secondary),
           child: Text('I have made my payment. I\'m good!',
               style:
                   TextStyle(color: Theme.of(context).colorScheme.onSecondary)),
-          color: Theme.of(context).colorScheme.secondary,
           onPressed: () {
             Fluttertoast.showToast(
                 msg: "Thank you for trusting in Just Crafts PH!",

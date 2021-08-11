@@ -31,7 +31,6 @@ class _ScreenShoppingCartState extends State<ScreenShoppingCart> {
   final _sizedBoxHalf = SizedBox(height: 5.0);
   final _listTilePadding = EdgeInsets.symmetric(horizontal: 0.0, vertical: 2.0);
   final _imgPicker = imgPicker.ImagePicker();
-  final _discountController = TextEditingController();
   final _opacity = 0.4;
 
   bool enabled = true;
@@ -50,7 +49,7 @@ class _ScreenShoppingCartState extends State<ScreenShoppingCart> {
       appBar: AppBar(
         title: Text("Shopping Cart"),
         actions: [
-          FlatButton.icon(
+          TextButton.icon(
             label: Text('Browse'),
             icon: Icon(Icons.search),
             onPressed: () {
@@ -461,7 +460,6 @@ class _ScreenShoppingCartState extends State<ScreenShoppingCart> {
       sum += partialList[i].codeQuantity.quantity;
     }
 
-    StickerInfo si = StickerInfo.st;
     return <Widget>[Text("     PB&J Stickers"), _sizedBox] +
         List<Widget>.generate(
             partialList.length,
@@ -784,17 +782,17 @@ class _ScreenShoppingCartState extends State<ScreenShoppingCart> {
     }
   }
 
-  RaisedButton buildDeliveryOptionSwitch() {
+  ElevatedButton buildDeliveryOptionSwitch() {
     if (shippingAddress.region == Region.MetroManila) {
       if (sameDayDelivery)
-        return RaisedButton(
+        return ElevatedButton(
             onPressed: () {
               setState(() {
                 sameDayDelivery = false;
               });
             },
             child: Text('Switch to standard delivery'));
-      return RaisedButton(
+      return ElevatedButton(
           onPressed: () {
             setState(() {
               sameDayDelivery = true;
@@ -802,7 +800,7 @@ class _ScreenShoppingCartState extends State<ScreenShoppingCart> {
           },
           child: Text('Switch to same-day delivery'));
     }
-    return RaisedButton(
+    return ElevatedButton(
         onPressed: null,
         child: Text('Same-day delivery only available for Metro Manila'));
   }
@@ -814,9 +812,9 @@ class _ScreenShoppingCartState extends State<ScreenShoppingCart> {
   }
 
   Widget placeOrderButton(BuildContext context) {
-    return RaisedButton(
+    return ElevatedButton(
         child: Text('Place Order', style: TextStyle(color: Colors.white)),
-        color: Theme.of(context).colorScheme.secondary,
+        style: ElevatedButton.styleFrom(primary: Theme.of(context).colorScheme.secondary),
         onPressed: () async {
           showDialog(
               context: context,
@@ -999,17 +997,17 @@ class _OrderingDialogInfoState extends State<OrderingDialogInfo> {
             Row(
               children: [
                 Expanded(
-                    child: RaisedButton(
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(primary:Theme.of(context).colorScheme.secondary),
                       child: Text('Back', style: TextStyle(color: Theme.of(context).colorScheme.onSecondary)),
                       onPressed: () {Navigator.pop(context);},
-                      color: Theme.of(context).colorScheme.secondary,
                     )),
                 SizedBox(width: 10.0),
                 Expanded(
-                    child: RaisedButton(
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(primary: Theme.of(context).colorScheme.secondary),
                       child: Text('Try again', style: TextStyle(color: Theme.of(context).colorScheme.onSecondary)),
                       onPressed: () {},
-                      color: Theme.of(context).colorScheme.secondary,
                     )),
               ],
             )

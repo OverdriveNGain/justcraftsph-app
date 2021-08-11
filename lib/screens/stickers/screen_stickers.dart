@@ -40,7 +40,7 @@ class _ScreenStickersState extends State<ScreenStickers> {
             ),
             title: Text("Browse Stickers"),
             actions: [
-              FlatButton.icon(
+              TextButton.icon(
                 label: Text('Cart'),
                 icon: Icon(Icons.shopping_cart_rounded),
                 onPressed: () {

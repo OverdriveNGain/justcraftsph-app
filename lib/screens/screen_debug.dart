@@ -28,9 +28,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
               padding: const EdgeInsets.all(10.0),
               child: Wrap(
                 children: [
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Print directories"),
-                    color: Colors.white,
                     onPressed: () async {
                       String dirs = await IoHelper.printFileList();
                       if (dirs != null)
@@ -40,9 +40,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       setState(() {});
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Move Down"),
-                    color: Colors.white,
                     onPressed: () async {
                       await IoHelper.debugMoveSelect(-1);
                       String dirs = await IoHelper.printFileList();
@@ -53,9 +53,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       setState(() {});
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Move Up"),
-                    color: Colors.white,
                     onPressed: () async {
                       await IoHelper.debugMoveSelect(1);
                       String dirs = await IoHelper.printFileList();
@@ -66,9 +66,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       setState(() {});
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Out Directory"),
-                    color: Colors.white,
                     onPressed: () async {
                       await IoHelper.debugDirectoryDirection(-1);
                       String dirs = await IoHelper.printFileList();
@@ -79,9 +79,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       setState(() {});
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("In Directory"),
-                    color: Colors.white,
                     onPressed: () async {
                       await IoHelper.debugDirectoryDirection(1);
                       String dirs = await IoHelper.printFileList();
@@ -93,9 +93,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                     },
                   ),
 
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Delete Selected"),
-                    color: Colors.white,
                     onPressed: () async {
                       final success = await IoHelper.debugDeleteSelected();
                       String dirs = await IoHelper.printFileList();
@@ -110,9 +110,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       setState(() {});
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Init Folders"),
-                    color: Colors.white,
                     onPressed: () async {
                       final success = await FileManager.st.initFolders();
                       String dirs = await IoHelper.printFileList();
@@ -129,9 +129,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       setState(() {});
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Timestamp"),
-                    color: Colors.white,
                     onPressed: () async {
                       final stamp = funcs.timeStamp();
                       setState(() {
@@ -139,9 +139,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       });
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Open Selected"),
-                    color: Colors.white,
                     onPressed: () async {
                       try{
                         debugText = await IoHelper.debugOpenSelectedAsString();
@@ -153,9 +153,9 @@ class _ScreenDebugState extends State<ScreenDebug> {
                       setState(() {});
                     },
                   ),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary:Colors.white),
                     child:Text("Clear Caches"),
-                    color: Colors.white,
                     onPressed: () async {
                       try{
                         await cachem.DefaultCacheManager().emptyCache();

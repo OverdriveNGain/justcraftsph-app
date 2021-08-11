@@ -17,9 +17,11 @@ class AddToCart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+    return ElevatedButton(
+          style: ElevatedButton.styleFrom(
+              primary: Theme.of(context).colorScheme.secondary,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+          ),
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -35,7 +37,6 @@ class AddToCart extends StatelessWidget {
         ),
         onPressed: (enabled)
             ? () {func();}
-            : null,
-    color: Theme.of(context).colorScheme.secondary,);
+            : null);
   }
 }

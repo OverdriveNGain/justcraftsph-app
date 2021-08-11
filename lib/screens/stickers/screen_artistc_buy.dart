@@ -104,12 +104,12 @@ class _ScreenArtistCBuyState extends State<ScreenArtistCBuy> {
                         ),
                       ),
                       SizedBox(width: 10.0),
-                      RaisedButton(
+                      ElevatedButton(
+                          style: ElevatedButton.styleFrom(primary: Theme.of(context).colorScheme.secondary),
                           child: Text(
                             'Commision me!',
                             style: TextStyle(color: Colors.white),
                           ),
-                          color: Theme.of(context).colorScheme.secondary,
                           onPressed: () {
                             showDialog(
                               context: context,
@@ -186,7 +186,8 @@ class _ScreenArtistCBuyState extends State<ScreenArtistCBuy> {
                       Expanded(
                           child: Container(
                             padding: EdgeInsets.fromLTRB(5.0, 0.0, 5.0, 0.0),
-                        child: RaisedButton(
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(primary: Colors.white),
                             onPressed: () {
                               for (int i = 0;
                                   i < designCounts.length;
@@ -195,7 +196,6 @@ class _ScreenArtistCBuyState extends State<ScreenArtistCBuy> {
                                   designCounts[i] = 0;
                               setState(() {});
                             },
-                            color: Colors.white,
                             child: Text(
                               "Remove Set",
                               textAlign: TextAlign.center,
@@ -205,14 +205,14 @@ class _ScreenArtistCBuyState extends State<ScreenArtistCBuy> {
                           child: Container(
                         padding:
                             EdgeInsets.fromLTRB(5.0, 0.0, 5.0, 0.0),
-                        child: RaisedButton(
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(primary: Colors.white),
                             onPressed: () {
                               for (int i = 0;
                                   i < designCounts.length;
                                   i++) designCounts[i]++;
                               setState(() {});
                             },
-                            color: Colors.white,
                             child: Text(
                               "Add Set",
                               textAlign: TextAlign.center,
@@ -222,14 +222,14 @@ class _ScreenArtistCBuyState extends State<ScreenArtistCBuy> {
                           child: Container(
                         padding:
                             EdgeInsets.fromLTRB(5.0, 0.0, 5.0, 0.0),
-                        child: RaisedButton(
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(primary: Colors.white),
                             onPressed: () {
                               for (int i = 0;
                                   i < designCounts.length;
                                   i++) designCounts[i] = 0;
                               setState(() {});
                             },
-                            color: Colors.white,
                             child: Text("Reset")),
                       )),
                     ],
@@ -308,11 +308,14 @@ class _ScreenArtistCBuyState extends State<ScreenArtistCBuy> {
       width: 60.0,
       child: Column(
         children: [
-          RaisedButton(
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(100.0)),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                primary: Colors.white,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(100.0)),
+            ),
+
             child: Icon(Icons.add),
-            color: Colors.white,
             onPressed: () {
               setState(() {
                 designCounts[index]++;
@@ -325,11 +328,14 @@ class _ScreenArtistCBuyState extends State<ScreenArtistCBuy> {
           SizedBox(height: 4.0),
           Text(code), //, style: TextStyle(fontStyle: FontStyle.italic)),
           SizedBox(height: 10.0),
-          RaisedButton(
-            shape: RoundedRectangleBorder(
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                primary: Colors.white,
+              shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(100.0)),
+            ),
+
             child: Icon(Icons.remove),
-            color: Colors.white,
             onPressed: () {
               setState(() {
                 if (--designCounts[index] < 0) designCounts[index] = 0;

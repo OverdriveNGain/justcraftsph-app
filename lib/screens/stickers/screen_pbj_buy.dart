@@ -116,12 +116,12 @@ class _ScreenPbjBuyState extends State<ScreenPbjBuy> {
                   children: [
                     Container(
                       padding: EdgeInsets.fromLTRB(5.0, 0.0, 5.0, 0.0),
-                      child: RaisedButton(
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(primary: Colors.white),
                           onPressed: () {
                             designCount = 0;
                             setState(() {});
                           },
-                          color: Colors.white,
                           child: Text("Reset")),
                     ),
                     Container(child: counter(sPbj.code)),
@@ -186,11 +186,13 @@ class _ScreenPbjBuyState extends State<ScreenPbjBuy> {
       width: 60.0,
       child: Column(
         children: [
-          RaisedButton(
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(100.0)),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                primary: Colors.white,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(100.0)),
+            ),
             child: Icon(Icons.add),
-            color: Colors.white,
             onPressed: () {
               setState(() {
                 designCount++;
@@ -203,11 +205,13 @@ class _ScreenPbjBuyState extends State<ScreenPbjBuy> {
           SizedBox(height: 4.0),
           Text(code), //, style: TextStyle(fontStyle: FontStyle.italic)),
           SizedBox(height: 10.0),
-          RaisedButton(
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(100.0)),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                primary: Colors.white,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(100.0)),
+            ),
             child: Icon(Icons.remove),
-            color: Colors.white,
             onPressed: () {
               setState(() {
                 if (--designCount < 0) designCount = 0;

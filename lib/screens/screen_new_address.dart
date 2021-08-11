@@ -194,7 +194,8 @@ class _ScreenNewAddressState extends State<ScreenNewAddress> {
                     ],
                   ),
                   SizedBox(height:10.0),
-                  RaisedButton(
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary: Theme.of(context).colorScheme.secondary),
                     onPressed: (!_interactable)?null:
                       () async{
                         setState((){_interactable = false;});
@@ -235,7 +236,6 @@ class _ScreenNewAddressState extends State<ScreenNewAddress> {
                           setState((){_interactable = true;});
                       },
                     child: Text("Submit", style: TextStyle(color: Theme.of(context).colorScheme.onSecondary)),
-                    color: Theme.of(context).colorScheme.secondary
                   )
                 ]),
               ),

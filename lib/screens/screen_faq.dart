@@ -9,7 +9,7 @@ class ScreenFaq extends StatelessWidget {
       appBar: AppBar(
         title: Text("FAQs"),
         actions: [
-          FlatButton.icon(
+          TextButton.icon(
             label: Text('Cart'),
             icon: Icon(Icons.shopping_cart_rounded),
             onPressed: () {

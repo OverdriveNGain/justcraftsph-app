@@ -130,14 +130,14 @@ class _ScreenThemeBuyState extends State<ScreenThemeBuy> {
                           child: Container(
                         padding:
                             EdgeInsets.fromLTRB(5.0, 0.0, 5.0, 0.0),
-                        child: RaisedButton(
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(primary: Colors.white),
                             onPressed: () {
                               for (int i = 0; i < designCounts.length; i++)
                                 if (--designCounts[i] < 0)
                                   designCounts[i] = 0;
                               setState(() {});
                             },
-                            color: Colors.white,
                             child: Text(
                               "Remove Set",
                               textAlign: TextAlign.center,
@@ -147,14 +147,14 @@ class _ScreenThemeBuyState extends State<ScreenThemeBuy> {
                           child: Container(
                         padding:
                             EdgeInsets.fromLTRB(5.0, 0.0, 5.0, 0.0),
-                        child: RaisedButton(
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(primary: Colors.white),
                             onPressed: () {
                               for (int i = 0;
                                   i < designCounts.length;
                                   i++) designCounts[i]++;
                               setState(() {});
                             },
-                            color: Colors.white,
                             child: Text(
                               "Add Set",
                               textAlign: TextAlign.center,
@@ -164,14 +164,14 @@ class _ScreenThemeBuyState extends State<ScreenThemeBuy> {
                           child: Container(
                         padding:
                             EdgeInsets.fromLTRB(5.0, 0.0, 5.0, 0.0),
-                        child: RaisedButton(
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(primary: Colors.white),
                             onPressed: () {
                               for (int i = 0;
                                   i < designCounts.length;
                                   i++) designCounts[i] = 0;
                               setState(() {});
                             },
-                            color: Colors.white,
                             child: Text("Reset")),
                       )),
                     ],
@@ -252,11 +252,13 @@ class _ScreenThemeBuyState extends State<ScreenThemeBuy> {
       width: 60.0,
       child: Column(
         children: [
-          RaisedButton(
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(100.0)),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                primary: Colors.white,
+        shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(100.0)),
+            ),
             child: Icon(Icons.add),
-            color: Colors.white,
             onPressed: () {
               setState(() {
                 designCounts[index]++;
@@ -269,11 +271,13 @@ class _ScreenThemeBuyState extends State<ScreenThemeBuy> {
           SizedBox(height: 4.0),
           Text(code),
           SizedBox(height: 10.0),
-          RaisedButton(
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(100.0)),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                primary: Colors.white,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(100.0)),
+            ),
             child: Icon(Icons.remove),
-            color: Colors.white,
             onPressed: () {
               setState(() {
                 if (--designCounts[index] < 0) designCounts[index] = 0;

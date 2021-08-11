@@ -1,0 +1,265 @@
+img:br.jpg
+title:Baybayin Refreshments
+name:twcdrws
+codes:BR1,BR2,BR3,BR4,BR5
+pricei:26
+prices:125
+desc:twcdrws is a freelance graphic artist/designer specializing in vector-based flat illustrations. A jack of all trades, she also does logo and layout work often and does painterly and comic art in her free time.
+fb:twcdrws
+tw:@twcdrws
+ig:@twcdrws
+email:twinwic@protonmail.com
+
+img:bp.png
+title:Blood Bath Party
+name:Ivy
+codes:BP1,BP2,BP3,BP4,BP5
+pricei:20
+prices:100
+desc:Henlo bootiful hoomans! I’m Ivy. I paint, draw and also pet doggos to ease my anxiety and make me forget about this cruel world. 💘
+fb:https://m.facebook.com/#!/harmlesscutie?ref=bookmarks
+ig:@fueledbytahoe
+email:aybeesens@gmail.com
+
+img:vg.png
+title:Chibi Sage (Valorant)
+name:Ichii
+codes:VG1,VG2,VG3,VG4,V5
+pricei:25
+prices:120
+desc:Hi! My name is Ichii! I'm a 2nd year Game Development student and I'm also a streamer. I focus on chibi art atm! <3
+fb:https://www.facebook.com/gaming/IchiiKimchi
+tw:@IchiiKimchi
+
+img:co.png
+title:Constellations
+name:Sofia Carreon
+codes:CO1,CO2,CO3,CO4,CO5,CO6,CO7,CO8,CO9,CO10,CO11,CO12
+pricei:20
+prices:80
+desc:Hi I’m Sofia, interested in architectures most especially the Baroque and Rococo architecture. I also like impressionism and my fave is Monet. My spirit artist is Michelangelo and Van Gogh.
+
+img:cl.png
+title:Dua Lipa
+name:cee s.
+codes:DL1,DL2,DL3,DL4,DL5
+pricei:15
+prices:70
+desc:Hi I'm Cee! I draw in traditional and digital media. Sometimes I do journaling and calligraphy. I love cats ❤️
+fb:https://m.facebook.com/ceengcap
+ig:@artceeeee
+email:ceesangcap@gmail.com
+
+img:er.png
+title:Eerie
+name:artofmai
+codes:ER1,ER2,ER3,ER4,ER5
+pricei:20
+prices:80
+desc:Hello, I’m a freelance multimedia arts student from the Philippines. I love to draw Portraits in traditional and digital media. I’m recently in to designing and illustrations.
+tw:@artofmai
+ig:@artofmai_
+email:artworksofmai@gmail.com
+
+img:ht.png
+title:Haikyu-te
+name:yarchurr
+codes:HT1,HT2,HT3,HT4,HT5,HT6,HT7
+pricei:20
+prices:100
+desc:An amateur artist for fun! I focus more on fandom art. 💛
+tw:@yarchurr
+ig:@yarchurr
+email:yellowchurr@gmail.com
+
+img:hs.png
+title:Harry Styles
+name:Hannah Salik
+codes:HS1,HS2,HS3,HS4,HS5,HS6,HS7
+pricei:25
+prices:100
+desc:I'm Hannah, an art enthusiast. I'm obsessed with pastel colors. I make edit base on the tv shows and artists that I love. It will be my privelege to make a custom portrait of anyone who is interested 😉
+fb:Hannah Salik
+tw:@asdfghannahslk
+ig:@hnnh.styles
+email:hannah.salik123@gmail.com
+
+img:jj.png
+title:Joji
+name:chimken
+codes:JJ1,JJ2,JJ3,JJ4,JJ5,JJ6,JJ7,J8,JJ9
+pricei:15
+prices:120
+desc:henlo, my name is audrey and im a chimken that draws. i try to make art from time to time to explore and improve my art style. and yes, i do like chikin, iced coffee, naps, and cats.
+tw:@whereischimken
+ig:@whereischimken
+email:whereischimken@gmail.com
+
+img:kp.png
+title:K-POP
+name:keita.png
+codes:KP1,KP2,KP3,KP4,KP5,KP6
+pricei:25
+prices:110
+desc:Keita.png is an IT student who loves to study art so bad. She is always busy playing games, stanning her faves, watching anime and kdramas, and doing art. Support her by buying her sticker pack, commissioning her, and following her social media accounts. She promised that she will produce more quality stuff as she keeps on learning.
+fb:https://www.facebook.com/keitadotpng
+tw:@keita_png
+ig:@keita.png
+email:keita.png@gmail.com
+
+img:vt.png
+title:Lovers in Time
+name:artscsc
+codes:VT1,VT2,VT3,VT4,VT5,VT6,VT7,VT8
+pricei:40
+prices:250
+desc:Hi! I’m Dhea, a highschool student and an artist for fun! I love arts and to read books! :))
+ig:@artscsc
+email:aldheacadelina@gmail.com
+
+img:pz.png
+title:Pantone Zodiac
+name:MarahTaguiam
+codes:PZ1,PZ2,PZ3,PZ4,PZ5
+pricei:20
+prices:100
+desc:Hi! I'm Marah a student creative :) I create art and eat a lot of donuts <3
+ig:@artchivebymarah
+
+img:pp.png
+title:Persona Protagonists
+name:cinnamori
+codes:PP1,PP2,PP3,PP4,PP5
+pricei:15
+prices:70
+desc:Hello I'm Riku! I make mostly make fanart for whatever fandom I'm into atm. I make a lot of ocs too! Current obssession: Twisted Wonderland :D
+tw:@bokeriku__
+ig:@bokeriku__
+
+img:pf.png
+title:Professions
+name:artscsc
+codes:PF1,PF2,PF3,PF4,PF5
+pricei:35
+prices:200
+desc:Hi! I’m Dhea, a highschool student and an artist for fun! I love arts and to read books! :))
+ig:@artscsc
+email:aldheacadelina@gmail.com
+
+img:qp.png
+title:Qlot's Pixels
+name:Timz Germedia
+codes:QP1,QP2,QP3,QP4,QP5
+pricei:20
+prices:100
+desc:Hi, My name is Timothy. I'm a 3rd year college student, and my course is Bachelor of Science in Information Technology Specialization in Multimedia Arts. I make pixel arts in my spare time.
+fb:TimzGermedia
+tw:@TimzGermedia
+ig:@TimzGermedia
+email:timothygermedia@gmail.com
+
+img:rc.png
+title:Random Collection
+name:saChi
+codes:RC1,RC2,RC3,RC4,RC5
+pricei:30
+prices:150
+desc:Hi im Sachi and im 15 years old from Rizal. Im a book worm i love to draw and make digital art of the characters i read. Art is very close to my heart because i express what's in my mind.
+ig:@Sachi_artwork
+email:raymundoashley28@yahoo.com
+
+img:rl.png
+title:relaytables
+name:Piolo Chomi
+codes:RL1,RL2,RL3,RL4,RL5,RL6
+pricei:25
+prices:100
+desc:Hi! I'm Piolo Chomi, currently a Biology student. I do artworks mostly for fun xd
+fb:fb.com/frootiloop
+email:chomip@yahoo.com
+
+img:za.png
+title:SHOEZ (Adidas Set)
+name:[ughhhh!]
+codes:ZA1,ZA2,Z3,ZA4,ZA5
+pricei:30
+prices:150
+desc:Hi, the name's Miguel.. an amateur artist who's trying his best to get by. I like shoes, movies and stylized version of things... and I happen to do art sometimes. If you like a certain shoe, I'm sure I can draw it for you.
+tw:@LubagMiguel
+ig:@miguellubag
+email:miguellubag@gmail.com
+
+img:zn.png
+title:SHOEZ (Nike Set)
+name:[ughhhh!]
+codes:ZN1,ZN2,ZN3,ZN4,ZN5
+pricei:30
+prices:150
+desc:
+fb:
+tw:
+ig:
+email:
+
+img:st.png
+title:Stranger Things
+name:Hannah Salik
+codes:ST1,ST2,ST3,ST4,ST5,ST6,ST7,ST8
+pricei:25
+prices:150
+desc:I'm Hannah, an art enthusiast. I'm obsessed with pastel colors. I make edit base on the tv shows and artists that I love. It will be my privelege to make a custom portrait of anyone who is interested 😉
+fb:Hannah Salik
+tw:@asdfghannahslk
+ig:@hnnh.styles
+email:hannah.salik123@gmail.com
+
+img:bz.png
+title:The Boyz!
+name:Chaenyoo
+codes:BZ1,BZ2,B3,BZ4,BZ5,BZ6,BZ7,BZ8,BZ9,BZ10,BZ11,BZ12
+pricei:30
+prices:300
+desc:Hi, I am Chaenyoo! I’m an advertising art major. I mainly do merchandise design and fan arts!
+fb:https://m.facebook.com/chaene.yoo
+tw:@chaenyoo
+ig:@chaenyoo
+email:chaene.yoo@gmail.com
+
+img:tv.png
+title:Thrive
+name:brewgainvilleas
+codes:TV1,TV2,TV3,TV4,TV5,TV6,TV7,TV8
+pricei:20
+prices:130
+desc:We’re two basic Jo’s trying to grow meaningful things through art. You’ll often find us in our natural habitat - your neighborhood cafe/tea place ✨
+ig:https://www.instagram.com/brewgainvilleas/
+email:brewgainvilleas@gmail.com
+
+img:tw.png
+title:TWST
+name:cinnamori
+codes:TW1,TW2,TW3,TW4,TW5,TW6,TW7,TW8,TW9,TW10,TW11,TW12
+pricei:10
+prices:100
+desc:Hello I'm Riku! I make mostly make fanart for whatever fandom I'm into atm. I make a lot of ocs too! Current obssession: Twisted Wonderland :D
+tw:@bokeriku__
+ig:@bokeriku__
+
+img:vs.png
+title:Valorant Sprays
+name:Aly
+codes:VS1,VS2,VS3,VS4,VS5,VS6
+pricei:20
+prices:70
+desc:I'm Aly! I'm currently studying BA Multimedia Arts. Art is my stress reliever and happiness. And I love cats!
+email:alymtav.art@gmail.com
+tw:@imalyvee
+ig:@imalyvee
+
+img:wc.png
+title:Watercolors
+name:Sofia Carreon
+codes:WC1,WC2,WC3,WC4,WC5,WC6,WC7
+pricei:20
+prices:80
+desc:Hi I’m Sofia, interested in architectures most especially the Baroque and Rococo architecture. I also like impressionism and my fave is Monet. My spirit artist is Michelangelo and Van Gogh.

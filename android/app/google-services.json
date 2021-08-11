@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918561646331",
+    "project_id": "just-crafts-ph",
+    "storage_bucket": "just-crafts-ph.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918561646331:android:9e06ec93497ad7c71df25e",
+        "android_client_info": {
+          "package_name": "com.jeremydevelops.just_crafts_ph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918561646331-d9c1fjb9q94qgjk93be8ft363ngkhrkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmVweQOYfVPJBJ_jnE5u7BrIytrkBojLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918561646331-d9c1fjb9q94qgjk93be8ft363ngkhrkj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

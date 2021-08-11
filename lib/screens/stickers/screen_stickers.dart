@@ -39,8 +39,8 @@ class _ScreenStickersState extends State<ScreenStickers> {
             ),
             title: Text("Browse Stickers"),
             actions: [
-              TextButton.icon(
-                label: Text('Cart'),
+              IconButton(
+                color: Theme.of(context).colorScheme.onPrimary,
                 icon: Icon(Icons.shopping_cart_rounded),
                 onPressed: () {
                   Navigator.pushNamed(context, 'loading', arguments: LoadingInfo(

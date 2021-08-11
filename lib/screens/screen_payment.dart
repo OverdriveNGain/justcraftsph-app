@@ -21,25 +21,25 @@ class ScreenPricing extends StatelessWidget {
         imagePath: 'images/payment_options/paymaya.png',
         title: 'Paymaya',
         details: [
-          Tuple2('Account Number', '09261151515'),
-          Tuple2('Account Name', 'Chalianne Joy M. Monzon'),
+          Tuple2('Account Number', '09959632500'),
+          Tuple2('Account Name', 'Jeremy Mattheu D. Amon'),
         ],
         backgroundColor: Color.fromARGB(255, 1, 52, 78)),
     PaymentOption(
         imagePath: 'images/payment_options/gcash.png',
         title: 'GCash',
         details: [
-          Tuple2('Account Number', '09261151515'),
-          Tuple2('Account Name', 'Chalianne Joy M. Monzon'),
+          Tuple2('Account Number', '09959632500'),
+          Tuple2('Account Name', 'Jeremy Mattheu D. Amon'),
         ],
         backgroundColor: Colors.white),
     PaymentOption(
         imagePath: 'images/payment_options/banktransfer.png',
         title: 'Bank Transfer',
         details: [
-          Tuple2('Bank Name', '(BPI) Bank of the Philippine Islands'),
-          Tuple2('Account Number', '0129358602'),
-          Tuple2('Account Name', 'Chalianne Joy M. Monzon')
+          Tuple2('Bank Name', '(BDO) Banco de Oro'),
+          Tuple2('Account Number', '003660127331'),
+          Tuple2('Account Name', 'Jeremy Mattheu D. Amon')
         ],
         backgroundColor: Colors.white),
   ];

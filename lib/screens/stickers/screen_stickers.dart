@@ -26,7 +26,7 @@ class _ScreenStickersState extends State<ScreenStickers> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 4,
+      length: 3,
       child: Scaffold(
           drawer: JcphDrawer(),
           appBar: AppBar(
@@ -34,7 +34,6 @@ class _ScreenStickersState extends State<ScreenStickers> {
               tabs: [
                 Tab(text: "Theme"),
                 Tab(text: "PB&J"),
-                Tab(text: "Artist's\nCorner"),
                 Tab(text: "Custom")
               ],
             ),
@@ -60,7 +59,6 @@ class _ScreenStickersState extends State<ScreenStickers> {
           body: TabBarView(children: [
             StickerTabTheme(),
             StickerTabPbj(),
-            StickerTabArtistC(),
             StickerTabCustom(),
           ])),
     );

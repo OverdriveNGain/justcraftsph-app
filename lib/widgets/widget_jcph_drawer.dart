@@ -123,17 +123,6 @@ class JcphDrawer extends StatelessWidget {
               onTap: () {},
             ),
           ),
-          // TODO: Delete debug tile
-          Material(
-            color: surfaceColor,
-            child: ListTile(
-              leading: Icon(Icons.code),
-              title: Text("Debug"),
-              onTap: () {
-                Navigator.pushReplacementNamed(context, "debug");
-              },
-            ),
-          ),
         ],
       ),
     ));

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:just_crafts_ph/screens/screen_debug.dart';
 import 'package:just_crafts_ph/screens/screen_fullscreen_image.dart';
 import 'package:just_crafts_ph/screens/screen_loading.dart';
 import 'package:just_crafts_ph/screens/screen_new_address.dart';
@@ -34,7 +33,6 @@ class MyApp extends StatelessWidget {
           'artistCBuy' : (context) => ScreenArtistCBuy(),
           'imgpreview': (context) => ScreenImagePreview(),
           'scart' : (context) => ScreenShoppingCart(),
-          'debug' : (context) => ScreenDebug(),
           'pickaddress' : (context) => ScreenPickAddress(),
           'newaddress' : (context) => ScreenNewAddress(),
           'pofinfo' : (context) => ScreenPofInfo(),

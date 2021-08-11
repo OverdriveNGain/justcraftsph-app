@@ -1,10 +1,6 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-// import 'package:just_crafts_ph/shared/shared_file_manager.dart';
-// import 'package:just_crafts_ph/shared/shared_io_helper.dart';
-//import 'package:just_crafts_ph/firebase/firebase.dart' as firebase;
 import 'package:just_crafts_ph/classes/class_loading_info.dart';
 
 class ScreenLoading extends StatefulWidget {

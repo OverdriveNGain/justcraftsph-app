@@ -107,14 +107,11 @@ class JcphDrawer extends StatelessWidget {
               },
             ),
           ),
-          Material(
-            color: surfaceColor,
-            child: ListTile(
-              leading: Icon(Icons.mail),
-              title: Text("Contact Us"),
-              onTap: () {},
-            ),
-          ),
+          Divider(),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal:16.0, vertical: 8.0),
+            child: Opacity(child: Text("Send an email to justcraftsph@gmail.com for any inquiries and questions!"), opacity: 0.4),
+          )
         ],
       ),
     ));

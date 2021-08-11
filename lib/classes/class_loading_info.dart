@@ -3,7 +3,7 @@ import 'package:just_crafts_ph/shared/shared_sticker_info.dart';
 import 'package:meta/meta.dart';
 import 'package:just_crafts_ph/shared/shared_file_manager.dart';
 import 'package:just_crafts_ph/firebase/firebase.dart' as firebase;
-import 'package:flutter/services.dart';g
+import 'package:flutter/services.dart';
 
 class LoadingInfo{
   final String loadingText;

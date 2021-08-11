@@ -69,7 +69,9 @@ class _ScreenLoadingState extends State<ScreenLoading> {
 
     if (loadingInfo.isReplacement)
       Navigator.pushReplacementNamed(context, loadingInfo.nextRouteNamed);
-    else
+    else{
+      Navigator.pop(context);
       Navigator.pushNamed(context, loadingInfo.nextRouteNamed);
+    }
   }
 }

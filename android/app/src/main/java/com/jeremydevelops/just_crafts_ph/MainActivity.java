@@ -1,4 +1,4 @@
-package com.jeremydevelops.just_crafts_ph;
+package com.jeremydevelops.justcraftsph;
 
 import io.flutter.embedding.android.FlutterActivity;
 

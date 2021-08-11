@@ -60,7 +60,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: false
-  image_path: "images/logo.png"
+  image_path: "images/logo_ps.jpg"
 
 
 # For information on the generic Dart part of this file, see the

@@ -196,7 +196,7 @@ class ScreenPricing extends StatelessWidget {
                 backgroundColor: Theme.of(context).colorScheme.surface,
                 fontSize: 16.0
             );
-            Navigator.pop(context);
+            Navigator.pushReplacementNamed(context, 'stickers');
           },
         )
       ]);

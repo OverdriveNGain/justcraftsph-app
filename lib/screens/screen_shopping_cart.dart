@@ -1056,8 +1056,9 @@ class _OrderingDialogInfoState extends State<OrderingDialogInfo> {
             backgroundColor: Theme.of(context).colorScheme.surface,
             fontSize: 16.0
         );
-        Navigator.pop(context);
-        Navigator.pop(context);
+        List<Order> o = FileManager.st.orders;
+        o.clear();
+        FileManager.st.saveOrders();
         Navigator.pushReplacementNamed(context, 'payment', arguments: (widget.stickerGrandTotal + (widget.sameDayDelivery?0:widget.shippingTotal)));
         return true;
       }

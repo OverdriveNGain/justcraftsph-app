@@ -100,14 +100,6 @@ class JcphDrawer extends StatelessWidget {
           Material(
             color: surfaceColor,
             child: ListTile(
-              leading: Icon(Icons.design_services),
-              title: Text("Design Commissions"),
-              onTap: () {},
-            ),
-          ),
-          Material(
-            color: surfaceColor,
-            child: ListTile(
               leading: Icon(Icons.contact_support_rounded),
               title: Text("FAQ"),
               onTap: () {

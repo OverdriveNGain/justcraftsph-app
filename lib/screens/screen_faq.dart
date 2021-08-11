@@ -27,12 +27,12 @@ class ScreenFaq extends StatelessWidget {
               strAnswer: "Unfortunately, we currently do not allow for refunds."
             ),
             QaPair(
-                strQuestion: "Do you guys allow refunds?",
-                strAnswer: "Unfortunately, we currently do not allow for refunds."
+                strQuestion: "How long is the delivery to Visayas/Mindanao?",
+                strAnswer: "Deliveries bound outside of NCR will be carried out by LBC. As such, we will provide you with a tracking number that will allow you to track your order via LBC's website."
             ),
             QaPair(
-                strQuestion: "Do you guys allow refunds?",
-                strAnswer: "Unfortunately, we currently do not allow for refunds."
+                strQuestion: "I need various specifications for my order",
+                strAnswer: "If ever you need a complex order that may involve bulk orders or custom designs and edits, feel free to send us an email and we'll reach out to you as soon as we can!"
             ),
           ],
         ),

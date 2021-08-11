@@ -254,9 +254,7 @@ class _ScreenThemeBuyState extends State<ScreenThemeBuy> {
         children: [
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-                primary: Colors.white,
-        shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(100.0)),
+                primary: Colors.white
             ),
             child: Icon(Icons.add),
             onPressed: () {
@@ -273,9 +271,7 @@ class _ScreenThemeBuyState extends State<ScreenThemeBuy> {
           SizedBox(height: 10.0),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-                primary: Colors.white,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(100.0)),
+                primary: Colors.white
             ),
             child: Icon(Icons.remove),
             onPressed: () {

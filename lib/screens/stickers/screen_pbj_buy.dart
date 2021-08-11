@@ -189,8 +189,6 @@ class _ScreenPbjBuyState extends State<ScreenPbjBuy> {
           ElevatedButton(
             style: ElevatedButton.styleFrom(
                 primary: Colors.white,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(100.0)),
             ),
             child: Icon(Icons.add),
             onPressed: () {
@@ -207,9 +205,7 @@ class _ScreenPbjBuyState extends State<ScreenPbjBuy> {
           SizedBox(height: 10.0),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-                primary: Colors.white,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(100.0)),
+                primary: Colors.white
             ),
             child: Icon(Icons.remove),
             onPressed: () {

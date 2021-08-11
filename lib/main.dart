@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
           'customBuy' : (context) => ScreenCustomBuy(),
           'payment' : (context) => ScreenPricing(),
         },
-        title: 'Flutter Demo',
+        title: 'Just Crafts PH',
         theme: customthemes.standardTheme,
         home: ScreenLoading()
     );

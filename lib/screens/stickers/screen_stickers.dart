@@ -1,7 +1,6 @@
 // import 'dart:async' show Future;
 // import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter/material.dart';
-import 'package:just_crafts_ph/screens/stickers/tab_artistc.dart';
 import 'package:just_crafts_ph/screens/stickers/tab_custom.dart';
 import 'package:just_crafts_ph/screens/stickers/tab_pbj.dart';
 import 'package:just_crafts_ph/screens/stickers/tab_theme.dart';

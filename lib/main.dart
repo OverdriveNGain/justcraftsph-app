@@ -8,7 +8,6 @@ import 'package:just_crafts_ph/screens/screen_shopping_cart.dart';
 import 'package:just_crafts_ph/screens/screen_faq.dart';
 import 'package:just_crafts_ph/screens/screen_pick_address.dart';
 import 'package:just_crafts_ph/screens/screen_payment.dart';
-import 'package:just_crafts_ph/screens/stickers/screen_artistc_buy.dart';
 import 'package:just_crafts_ph/screens/stickers/screen_custom_buy.dart';
 import 'package:just_crafts_ph/screens/stickers/screen_pbj_buy.dart';
 import 'package:just_crafts_ph/screens/stickers/screen_stickers.dart';
@@ -30,7 +29,6 @@ class MyApp extends StatelessWidget {
           'stickers': (context) => ScreenStickers(),
           'themeBuy' : (context) => ScreenThemeBuy(),
           'pbjBuy' : (context) => ScreenPbjBuy(),
-          'artistCBuy' : (context) => ScreenArtistCBuy(),
           'imgpreview': (context) => ScreenImagePreview(),
           'scart' : (context) => ScreenShoppingCart(),
           'pickaddress' : (context) => ScreenPickAddress(),

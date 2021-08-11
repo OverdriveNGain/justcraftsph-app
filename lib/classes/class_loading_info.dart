@@ -3,10 +3,7 @@ import 'package:just_crafts_ph/shared/shared_sticker_info.dart';
 import 'package:meta/meta.dart';
 import 'package:just_crafts_ph/shared/shared_file_manager.dart';
 import 'package:just_crafts_ph/firebase/firebase.dart' as firebase;
-import 'package:flutter/services.dart';
-//import 'package:just_crafts_ph/firebase/firebase_firestore.dart' as firestore;
-//import 'package:flutter_cache_manager/flutter_cache_manager.dart' as cachemanager;
-
+import 'package:flutter/services.dart';g
 
 class LoadingInfo{
   final String loadingText;
@@ -25,7 +22,6 @@ class LoadingInfo{
     isReplacement: true,
     nextRouteNamed: 'stickers',
     func: () async {
-      // Set Orientation
       await SystemChrome.setPreferredOrientations([
         // DeviceOrientation.landscapeRight,
         // DeviceOrientation.landscapeLeft,
@@ -39,8 +35,6 @@ class LoadingInfo{
 
       CachedPrefs.st = CachedPrefs();
       await CachedPrefs.st.init();
-      // Just for adding from text
-      // await firestore.updateDatabase(StickerInfo.st.artistcs);
     }
   );
 }
